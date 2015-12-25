@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div id="main-news" class="row">
+{% for i in site.categories['news'] limit:4 %}
+    <div id="tab{{forloop.index}}" class="card none col l12">
+        <div class="card-image none col l3 m6 offset-m3 s12">
+            <img src="/img/news/{{ i.img }}" />
+        </div>
+        <div class="none col l9 m12 s12">
+            <div class="card-content">
+                <h4>{{i.title}}</h4>
+                {{i.excerpt | strip_html | xml_escape}}
+            </div>
+            <div class="card-action right-align"><a href="#" class="waves-effect btn-flat">More</a></div>
+        </div>
+    </div>
+{% endfor %}
+    <ul class="tabs">
+        {% for i in site.categories['news'] limit:4 %}  {% capture a %}{% if forloop.first %}active{% endif %}{% endcapture %}
+        <li class="tab col s3 {{a}} "><a href="#tab{{forloop.index}}">{{i.tab}}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+<!--<a href="#!"><i class="material-icons">chevron_left</i></a><a href="#!"><i class="material-icons">chevron_right</i></a>-->
+
+<div id="landing-apps">
+    {% include apps.html size="large" grid="l2 m4 s6" %}
+</div>

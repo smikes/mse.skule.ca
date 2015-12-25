@@ -1,0 +1,43 @@
+<header>
+    <!-- Mobile Nav-->
+    <a href="#" data-activates="mobile-nav" class="button-collapse btn-large hide-on-med-and-up"><i class="material-icons">menu</i></a>
+    <a href="/" class="center-align hide-on-med-and-up logo"><img src="/img/logo.png" /></a>
+    <div class="side-nav" id="mobile-nav">
+        <div class="input-field">
+                <i class="material-icons prefix" style="font-size: 3em; ">search</i>
+                <input placeholder="Search" id="search" type="text" class="validate">
+        </div>
+        <ul class="collapsible z-depth-0" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header" style="padding:20px 0;">Information</div>
+                <div class="collapsible-body">{% include apps.html limit="3" size="medium" grid="s6" %}</div>
+            </li>
+            <li>
+                <div class="collapsible-header" style="padding:20px 0;">Club services</div>
+                <div class="collapsible-body">{% include apps.html offset="3" limit="2" size="medium" grid="s6" %}</div>
+            </li>
+            <li>
+                <div class="collapsible-header" style="padding:20px 0;">Resources</div>
+                <div class="collapsible-body">{% include apps.html offset="5" size="medium" grid="s6" %}</div>
+            </li>
+        </ul>
+        <div class="center">
+        <a class='btn-floating waves-effect waves-light' href='site.social.facebook'> <img src="/img/svg/facebook.svg" /></a>
+        <a class='btn-floating waves-effect waves-light' href='site.social.twitter'> <img src="/img/svg/twitter.svg" /></a>
+        <a class='btn-floating waves-effect waves-light' href='site.social.instagram'> <img src="/img/svg/instagram.svg" /></a>
+        </div>
+    </div>
+    <!-- Desktop/Tablet Nav-->
+    <div class="container" style="padding-top: 10px;">
+      <a href="/" class="hide-on-small-only"><img src="/img/logo.png" /></a>
+      <div class="right center-align hide-on-small-only">
+          <a class='btn-floating waves-effect waves-light' href='#'> <img src="/img/svg/facebook.svg" /></a>
+          <a class='btn-floating waves-effect waves-light' href='#'> <img src="/img/svg/twitter.svg" /></a>
+          <a class='btn-floating waves-effect waves-light' href='#'> <img src="/img/svg/instagram.svg" /></a>
+          <a class='dropdown-button btn-floating waves-effect waves-light' href='#' data-activates='dropdown1'><i class="material-icons">apps</i></a>
+          <div id='dropdown1' class='dropdown-content'>
+            {% include apps.html size="medium" grid="m6" %}
+          </div>
+      </div>
+    </div>
+</header>

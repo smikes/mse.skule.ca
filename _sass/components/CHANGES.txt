@@ -1,0 +1,24 @@
+Changes to v0.97.0 of materialize:
+(Or at the very least, stuff I remembered I changed)
+
+_grid.scss
+    container size normalization:
+        90% -> 85%
+        85% -> 85%
+        70% -> 85%
+        
+_modal.scss
+    .modal
+    width: 55% -> width: 30%
+    
+_sideNav.scss
+    .sidenav a
+    height: 64px -> removed;
+    padding: 0 $sidenav-padding-right; -> removed
+    display: block; -> removed
+    
+_variables.scss
+    $primary-color: color("blue", "lighten-2") !default;
+    > from materialize-red
+    $secondary-color: color("purple", "accent-1") !default;
+    > from teal, lighten-1

@@ -1,0 +1,21 @@
+{% if include.size == "large" %}
+{% assign d='90px' %}{% assign s='5' %}
+{% else %}
+{% assign d='60px' %}{% assign s='6' %}
+{% endif %}
+<div class="row center-align">
+    {% for i in site.apps limit:include.limit offset:include.offset %}
+    <div class="none col {{ include.grid }} {{ i.color }} box hoverable">
+        <a href="{{ i.url }}">
+            <div>            
+                {% if i.svg == "yes" %}
+                <img class="cicon" src="/img/svg/{{i.icon}}.svg" height="{{d}}" width="{{d}}" />
+                {% else %}
+                <i class="{{ include.size }} material-icons">{{ i.icon }}</i>
+                {% endif %}
+                <h{{s}} class="app-title">{{ i.name }}</h5>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>

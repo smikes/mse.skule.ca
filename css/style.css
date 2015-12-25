@@ -1,0 +1,125 @@
+svg {
+    fill: currentColor;
+}
+
+.none {
+    padding: 0px !important;
+}
+
+body {
+    background: url("../img/back.gif");    
+}
+
+/* Landing page and centering*/
+#landing-apps div {
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+#landing-apps div:hover {
+    z-index: 1;
+}
+
+#landing-apps div h5 {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .02em;
+    text-shadow: 1px 1px 4px rgba(0,0,0,.1);
+    text-overflow: ellipsis;
+}
+
+
+#landing-apps div a div {
+    margin-top: 2em;
+}
+
+@media(min-width:993px) {
+    #landing-apps > div > div:nth-child(6),#landing-apps > div > div:first-child {
+        margin-left: 8.33333%;
+    }
+}
+
+.box a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    color: #FFF;
+}
+
+.box a div {
+    width: 100%;
+}
+
+.box {
+    position:relative;
+}
+
+.box:before{
+    content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+/*
+Wrapping works like this:
+<div#landing-apps>   Start insane wrapping
+ div box:before      Padding makes hight=width
+  <div box>          Relative display to work with other divs/spacings
+   <a>               To prevent the content from taking up space in the div, and to keep it filling the container
+    <div>            To keep the icon and h5 on top of one another
+     content         Finallly~
+*/
+
+.nav-ul li {
+    display:inline;
+}
+
+.logo {
+    position:absolute;
+    width:30%;
+    left:35%;
+    right:35%;
+}
+
+header .container > div > a:nth-child(4){
+    margin-left: 2.5em;
+}
+
+header .container > div a img, .side-nav > div > a img {
+    padding: 6.5px;
+}
+
+.dropdown-content {
+    top: 4em !important;
+    width: 17em !important;
+}
+
+.dropdown-content .row {
+    margin: 1em;
+}
+
+#mobile-nav {
+    overflow: hidden;
+}
+
+#main-news div{
+    padding-bottom: 0px;
+}
+
+.footer-button a {
+    position: relative;
+    bottom: -47.75px
+}

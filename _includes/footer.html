@@ -1,0 +1,41 @@
+<!-- Javascript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src={{ "/js/jquery-2.1.1.min.js" | prepend: site.url }}>\x3C/script>')</script>
+	<script type="text/javascript" src="{{ '/js/materialize.min.js' | prepend: site.url }}"></script>
+    <script type="text/javascript" src="{{ '/js/custom.js' | prepend: site.url }}"></script>
+
+<!-- Mail Modal -->
+<div id="modalmail" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h3>Send an email!</h3>
+      <p>Yo, this feature isn't finished yet. Give it a few weeks</p>
+    </div>  
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-{{site.color.primary}} btn-flat">Okay</a>
+    </div>
+  </div>
+  
+<!-- Footer -->
+<footer class="page-footer">
+    <div class="row container">
+        <div class="col l6 s12">
+            <h5 class="white-text">{{ site.title }}</h5>
+            <p class="grey-text text-lighten-4">{{ site.description }}</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Contact</h5>
+            <p class="grey-text text-lighten-4">You can contact us by completing our email form or visiting the club office:</p>
+            <p class="grey-text text-lighten-4">MSE Club office</p>
+            <p class="grey-text text-lighten-4">{% for line in site.address %}{{ line }}<br />{% endfor %}</p>
+            <div class="center footer-button">
+            <a class="btn-floating btn-large waves-effect waves-light {{site.color.accent}} accent-1 modal-trigger" href="#modalmail"><i class="material-icons">email</i></a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+        Crafted by <a class="grey-text text-lighten-3" href="{{site.project}}"> {{ site.senpai }} </a>
+        </div>
+    </div>
+</footer>
