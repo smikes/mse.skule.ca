@@ -4,7 +4,7 @@
 {% assign d='60px' %}{% assign s='6' %}
 {% endif %}
 <div class="row center-align">
-    {% for i in site.apps limit:include.limit offset:include.offset %}
+    {% for i in site.data.apps limit:include.limit offset:include.offset %}
     <div class="none col {{ include.grid }} {{ i.color }} box hoverable">
         <a href="{{ i.url }}">
             <div>            

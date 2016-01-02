@@ -1,13 +1,6 @@
-svg {
-    fill: currentColor;
-}
-
-.none {
-    padding: 0px !important;
-}
-
 body {
-    background: url("../img/back.gif");    
+    background: url("../img/back.gif");
+    overflow: auto !important;
 }
 
 /* Landing page and centering*/
@@ -83,6 +76,30 @@ Wrapping works like this:
      content         Finallly~
 */
 
+header .container > div > a:nth-child(4){
+    margin-left: 2.5em;
+}
+
+header .container > div a img, .side-nav > div > a img {
+    padding: 6.5px;
+}
+
+svg {
+    fill: currentColor;
+}
+
+#mobile-nav {
+    overflow: hidden;
+}
+
+#main-news div{
+    padding-bottom: 0px;
+}
+
+#modalmail {
+    width: 30%;
+}
+
 .nav-ul li {
     display:inline;
 }
@@ -94,14 +111,6 @@ Wrapping works like this:
     right:35%;
 }
 
-header .container > div > a:nth-child(4){
-    margin-left: 2.5em;
-}
-
-header .container > div a img, .side-nav > div > a img {
-    padding: 6.5px;
-}
-
 .dropdown-content {
     top: 4em !important;
     width: 17em !important;
@@ -111,15 +120,11 @@ header .container > div a img, .side-nav > div > a img {
     margin: 1em;
 }
 
-#mobile-nav {
-    overflow: hidden;
-}
-
-#main-news div{
-    padding-bottom: 0px;
-}
-
 .footer-button a {
     position: relative;
     bottom: -47.75px
+}
+
+.none {
+    padding: 0px !important;
 }

@@ -17,7 +17,7 @@ social:
 
 # Build settings
 markdown: kramdown
-permalink: '/news/:short_year:month:day/'
+permalink: '/:categories/:short_year:month:day/'
 relative_permalinks: false
 #include: [.htaccess]
 excerpt_separator: "<!-- more -->"
@@ -29,47 +29,3 @@ description: 'The Materials Science and Engineering Club (MSE Club) at the Unive
 color:
     primary: 'blue'
     accent: 'purple'
-
-apps:
--  name: 'News'
-   icon: 'receipt'
-   color: 'blue darken-4'
-   url: '/news/'
--  name: 'Events'
-   icon: 'event'
-   color: 'blue darken-3'
-   url: '/events/'
--  name: 'Sports'
-   icon: 'football'
-   svg: 'yes'
-   color: 'blue darken-2'
-   url: '/sports/'
--  name: 'MSE Shop'
-   icon: 'shopping_basket'
-   color: 'blue darken-1'
-   url: '/shop/'
--  name: 'Study Rooms'
-   icon: 'schedule'
-   color: 'blue'
-   url: '/study/'
--  name: 'What is MSE?'
-   icon: 'book'
-   color: 'blue lighten-1'
-   url: '/guide/'
--  name: 'Courses'
-   icon: 'school'
-   color: 'blue lighten-2'
-   url: '/courses/'
--  name: 'Pictures'
-   icon: 'photo_library'
-   color: 'blue lighten-3'
-   url: '/pics/'
--  name: 'Useful Links'
-   icon: 'link-variant'
-   svg: 'yes'
-   color: 'blue accent-1'
-   url: '/links/'
--  name: 'Club Execs'
-   icon: 'face'
-   color: 'blue accent-2'
-   url: '/club/'

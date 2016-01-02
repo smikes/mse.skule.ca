@@ -2,3 +2,20 @@
 permalink: /news/
 layout: default
 ---
+
+<div class="row">
+{% for i in site.categories['news'] %}
+    <div id="tab{{forloop.index}}" class="card none col l12">
+        <div class="card-image none col l3 m6 offset-m3 s12">
+            <img src="/img/news/{{ i.img }}" />
+        </div>
+        <div class="none col l9 m12 s12">
+            <div class="card-content">
+                <h4>{{i.title}}</h4>
+                {{i.excerpt}}
+            </div>
+            <div class="card-action right-align"><a href="{{i.url}}" class="waves-effect btn-flat">More</a></div>
+        </div>
+    </div>
+{% endfor %}
+</div>

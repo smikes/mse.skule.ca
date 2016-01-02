@@ -7,10 +7,6 @@ _grid.scss
         85% -> 85%
         70% -> 85%
         
-_modal.scss
-    .modal
-    width: 55% -> width: 30%
-    
 _sideNav.scss
     .sidenav a
     height: 64px -> removed;

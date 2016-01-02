@@ -11,9 +11,9 @@ layout: default
         <div class="none col l9 m12 s12">
             <div class="card-content">
                 <h4>{{i.title}}</h4>
-                {{i.excerpt | strip_html | xml_escape}}
+                {{i.excerpt}}
             </div>
-            <div class="card-action right-align"><a href="#" class="waves-effect btn-flat">More</a></div>
+            <div class="card-action right-align"><a href="{{i.url}}" class="waves-effect btn-flat">More</a></div>
         </div>
     </div>
 {% endfor %}
