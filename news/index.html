@@ -1,0 +1,54 @@
+---
+layout: default
+title: 'News'
+---
+
+{% for i in site.categories['news'] %}{% capture true_total %}{{forloop.length}}{% endcapture %}{% endfor %}
+{% capture cur_total %}{{paginator.page | times: paginator.per_page}}{% endcapture %}
+{% assign true_pages = true_total | divided_by: paginator.per_page | plus:1 %}
+
+<div class="row">
+{% for i in paginator.posts %}
+    {% for j in i.categories %}
+    {% if j == 'news' %}
+    <div id="tab{{forloop.index}}" class="card none col l12">
+        <div class="card-image none col l3 m6 offset-m3 s12">
+            <img src="/img/news/{{ i.img }}" />
+        </div>
+        <div class="none col l9 m12 s12">
+            <div class="card-content">
+                <h4>{{i.title}}</h4>
+                {{i.excerpt}}
+            </div>
+            <div class="card-action right-align"><a href="{{i.url}}" class="waves-effect btn-flat">More</a></div>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+{% endfor %}
+</div>
+
+<!-- Pagination links -->
+<ul class="pagination valign-wrapper">
+    {% if paginator.previous_page and paginator.page > 1 %}
+    <li class="waves-effect" ><a href="{{ paginator.previous_page_path }}"><i class="material-icons">chevron_left</i></a></li>
+    {% else %}
+    <li class="disabled"><a><i class="material-icons">chevron_left</i></a></li>
+    {% endif %}
+    {% for i in (1..true_pages)%}
+    {% if i == paginator.page %}
+    <li class="active"><a>{{i}}</a></li>
+    {% elsif i == 1 %}
+    <li class="waves-effect"><a href="{{ site.paginate_path | remove: ':num/' }}">1</a></li>
+    {% else %}
+    <li class="waves-effect"><a href="{{ site.paginate_path | replace: ':num', i }}">{{i}}</a></li>
+    {% endif %}
+    {% endfor %}
+    {% if paginator.next_page and cur_total < true_total %}
+    <li class="waves-effect"><a href="{{ paginator.next_page_path }}"><i class="material-icons">chevron_right</i></a></li>
+    {% elsif paginator.next_page and paginator.page == 1 %}
+    <li class="waves-effect"><a href="{{ paginator.next_page_path }}"><i class="material-icons">chevron_right</i></a></li>
+    {% else %}
+    <li class="disabled"><a><i class="material-icons">chevron_right</i></a></li>
+    {% endif %}
+</ul>

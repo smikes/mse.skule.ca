@@ -1,6 +1,6 @@
 body {
     background: url("../img/back.gif");
-    overflow: auto !important;
+    overflow: auto !important; /*To prevent modals from removing scrollbar*/
 }
 
 /* Landing page and centering*/
@@ -28,7 +28,6 @@ body {
     text-shadow: 1px 1px 4px rgba(0,0,0,.1);
     text-overflow: ellipsis;
 }
-
 
 #landing-apps div a div {
     margin-top: 2em;
@@ -100,6 +99,20 @@ svg {
     width: 30%;
 }
 
+#members .activator, #members .card-reveal span {
+    font-size: 21px;
+    line-height: 42px;
+}
+
+#members .activator i, #members .card-reveal span i {
+    margin: 9px 0px;
+}
+
+#link .col {
+    box-sizing: border-box;
+    padding: 0.5rem 2rem;
+}
+
 .nav-ul li {
     display:inline;
 }
@@ -112,7 +125,7 @@ svg {
 }
 
 .dropdown-content {
-    top: 4em !important;
+    top: 4em !important; /*Overrides the scripts positioning*/
     width: 17em !important;
 }
 
@@ -126,5 +139,14 @@ svg {
 }
 
 .none {
-    padding: 0px !important;
+    padding: 0px !important; /*no padding...duh*/
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pagination i {
+    padding: 9px 0px;
 }

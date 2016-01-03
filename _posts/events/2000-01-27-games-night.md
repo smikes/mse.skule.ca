@@ -2,7 +2,7 @@
 categories: events
 title: Games Night
 short: "Relaxing get togethers"
-img: "monte.jpg"
+img: "game.jpg"
 ---
 
 games => poker

@@ -1,12 +1,13 @@
 ---
 permalink: /sports/
 layout: default
+title: 'Sports'
 ---
 
 <div class="row">
 {% for s in site.categories['sports'] %}
 <div class="col s12 m4 l3">
-    <div class="card">
+    <div class="card hoverable">
         <div class="card-image">
             <img src="/img/sports/{{s.img}}">
         </div>
@@ -15,7 +16,11 @@ layout: default
             <p>{{s.short}}</p>
         </div>
         <div class="card-action right-align">
-            <a class="modal-trigger" href="#modal{{forloop.index}}">More</a>
+            <a class="activator">More</a>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">{{s.title}}<i class="material-icons right">close</i></span>
+            <p>{{s.excerpt}}</p>
         </div>
     </div>
 </div>
@@ -23,6 +28,7 @@ layout: default
 </div>
 
 <!-- Event modals -->
+<!--
 {% for s in site.categories['sports'] %}
 <div id="modal{{forloop.index}}" class="modal modal-fixed-footer">
     <div class="modal-content">
@@ -34,3 +40,4 @@ layout: default
     </div>
 </div>
 {% endfor %}
+-->

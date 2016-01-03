@@ -2,8 +2,7 @@
 categories: events
 title: Secret Santa
 short: "HO HO HO"
-img: "monte.jpg"
+img: "tree.jpg"
 ---
 
-Information goes here
-
+Secret Santa

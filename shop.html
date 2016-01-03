@@ -1,14 +1,15 @@
 ---
 permalink: /shop/
 layout: default
+title: 'MSE Shop'
 ---
 
 <div class="row">
 {% for m in site.categories['shop'] %}
 <div class="col s12 m4 l3">
-    <div class="card">
+    <div class="card hoverable">
         <div class="card-image">
-            <img src="/img/shoph/{{m.img}}">
+            <img src="/img/shop/{{m.img}}">
         </div>
         <div class="card-content">
             <span class="card-title grey-text text-darken-4">{{m.title}}</span>

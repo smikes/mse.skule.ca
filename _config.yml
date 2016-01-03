@@ -1,8 +1,22 @@
-# Global settings
+# Build Settings
 title: MSE Club
 email: mse@mse.skule.ca
 senpai: Henry Lu
 project: https://github.com/nanosmasher/mse.skule.ca
+markdown: kramdown
+permalink: '/:categories/:short_year:month:day/'
+relative_permalinks: false
+include: [.htaccess]
+exclude: ['LICENSE_materialize','LICENSE','README_materialize','README']
+excerpt_separator: '<!-- more -->'
+paginate: 10
+paginate_path: '/news/:num/'
+
+# Other Settings
+
+keywords: ['Materials','Science','Engineering','Club','MSE','MSEClub','UofT','Academic','Anti-Calendar','Guide','Courses','Buckyball']
+
+description: 'The Materials Science and Engineering Club (MSE Club) at the University of Toronto represents the interests of over 200 MSE undergraduate students in the Faculty of Applied Science and Engineering. The club excecutives organize events like barbeques, smokers, tournaments, movie nights, sports, and the annual MSE dinner dance. They provide services such as locker rentals, common room cleanups, and anouncement boards for the community.'
 
 address:
     - WB39 Wallberg building
@@ -11,20 +25,9 @@ address:
     - M56 3E5
 
 social:
-    facebook: #
+    facebook: https://www.facebook.com/groups/mseclub/
     twitter: #
     instagram: #
-
-# Build settings
-markdown: kramdown
-permalink: '/:categories/:short_year:month:day/'
-relative_permalinks: false
-#include: [.htaccess]
-excerpt_separator: "<!-- more -->"
-
-# Text
-keywords: ['Materials','Science','Engineering','Club','MSE','MSEClub','UofT','Academic','Anti-Calendar','Guide','Courses','Buckyball']
-description: 'The Materials Science and Engineering Club (MSE Club) at the University of Toronto represents the interests of over 200 MSE undergraduate students in the Faculty of Applied Science and Engineering. The club excecutives organize events like barbeques, smokers, tournaments, movie nights, sports, and the annual MSE dinner dance. They provide services such as locker rentals, common room cleanups, and anouncement boards for the community.'
 
 color:
     primary: 'blue'
