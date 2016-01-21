@@ -29,6 +29,9 @@ social:
     twitter: #
     instagram: #
 
+collections:
+- course
+
 color:
     primary: 'blue'
     accent: 'purple'

@@ -7,20 +7,23 @@ title: 'News'
 {% capture cur_total %}{{paginator.page | times: paginator.per_page}}{% endcapture %}
 {% assign true_pages = true_total | divided_by: paginator.per_page | plus:1 %}
 
-<div class="row">
+<div id="news" class="row">
 {% for i in paginator.posts %}
     {% for j in i.categories %}
     {% if j == 'news' %}
-    <div id="tab{{forloop.index}}" class="card none col l12">
+    <div class="card none col l12">
         <div class="card-image none col l3 m6 offset-m3 s12">
             <img src="/img/news/{{ i.img }}" />
         </div>
         <div class="none col l9 m12 s12">
             <div class="card-content">
                 <h4>{{i.title}}</h4>
+                <span class="grey-text">{{i.date | date:"%B %-d, %Y"}}</span>
                 {{i.excerpt}}
             </div>
-            <div class="card-action right-align"><a href="{{i.url}}" class="waves-effect btn-flat">More</a></div>
+            <div class="card-action">
+                <a href="{{i.url}}" class="waves-effect btn-flat right">More</a>
+            </div>
         </div>
     </div>
     {% endif %}

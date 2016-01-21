@@ -6,7 +6,10 @@ _grid.scss
         90% -> 85%
         85% -> 85%
         70% -> 85%
-        
+
+
+_sideNav.scss -> _sidenav.scss
+
 _sideNav.scss
     .sidenav a
     height: 64px -> removed;

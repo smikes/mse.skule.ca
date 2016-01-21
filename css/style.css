@@ -39,6 +39,10 @@ body {
     }
 }
 
+#news .card-action > a{
+    margin: -10px 20px 10px 0px;
+}
+
 .box a {
     width: 100%;
     height: 100%;
@@ -149,4 +153,29 @@ svg {
 
 .pagination i {
     padding: 9px 0px;
+}
+
+#courses .tabs, #courses .tabs li {
+    display: block;
+}
+
+#courses .tabs .indicator {
+    display: none;
+}
+
+#courses .tabs li a.active {
+    border-right: 2px solid #ACD8FA;
+    border-left: 2px solid #ACD8FA;
+}
+
+.course-content ul {
+    padding-left: 3rem;
+}
+
+.course-content li {
+    list-style-type: square;
+}
+
+.course-content h5 {
+    text-align: center;
 }
