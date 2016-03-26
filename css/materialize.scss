@@ -8,6 +8,8 @@
 @import "components/color";
 
 // Variables;
+$primary-color: color("{{site.color.primary}}", "lighten-2") !default;
+$secondary-color: color("{{site.color.accent}}", "accent-1") !default;
 @import "components/variables";
 
 // Reset

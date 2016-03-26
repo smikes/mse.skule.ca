@@ -17,7 +17,6 @@ _sideNav.scss
     display: block; -> removed
     
 _variables.scss
-    $primary-color: color("blue", "lighten-2") !default;
-    > from materialize-red
-    $secondary-color: color("purple", "accent-1") !default;
-    > from teal, lighten-1
+    $primary-color: color("materialize-red", "lighten-2") !default;
+    $secondary-color: color("teal", "lighten-1") !default;
+    > moved to materialize.scss to link with _config.yml
