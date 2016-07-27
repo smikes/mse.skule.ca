@@ -4,6 +4,7 @@ email: mse@mse.skule.ca
 senpai: Henry Lu
 project: https://github.com/nanosmasher/mse.skule.ca
 markdown: kramdown
+gems: [jekyll-paginate]
 permalink: '/:categories/:short_year:month:day/'
 relative_permalinks: false
 include: [.htaccess]
