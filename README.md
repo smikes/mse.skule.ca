@@ -55,6 +55,10 @@ Images for members are found in **img/member**.
 Look in the **_posts** folder for the respective category and follow the template provided. It should be quite intuitive. All posts must have a YYYY-MM-DD-[name].md format to actually show up on the website. They appear in reverse chronological order (newest first).  
 Images are found in the **img** folder.
 
+#### picture/guide
+
+Follow the format presented in **_data/pics.yml** and **_data/guide.yml**
+
 #### Background/color changes
 
 The background image and the little favicon are in the **img** folder.  

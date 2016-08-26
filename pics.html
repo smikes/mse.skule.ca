@@ -9,8 +9,9 @@ title: 'Pictures'
 <br />
 <br />
 <div class="center-align">
-<a href="http://www.photos.skule.ca/1T41T5/Dinner-Dances/MSEBuckyball1T5"><h2>MSE Buckyball 1T5</h2></a>
-<a href="http://www.photos.skule.ca/1T3-1T4/Dinner-Dances/MSE-Dinner-Dance/"><h2>MSE Buckyball 1T4</h2></a>
+{% for i in site.data.pics %}
+<a href="{{i.url}}"><h2>{{i.name}}</h2></a>
+{% endfor %}
 </div>
 <br />
 <br />
