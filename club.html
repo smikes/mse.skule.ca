@@ -20,7 +20,10 @@ title: 'Club Executives'
             <p>{{m.role}}</p>
             <div class="divider"></div>
             <p>{{m.description}}</p>
+
+            {% if m.email != ''%}
             <a class="valign-wrapper" href="mailto:{{m.email}}"><i class="material-icons tiny">email</i> {{m.email}}</a>
+            {% endif %}
         </div>
     </div>
 </div>

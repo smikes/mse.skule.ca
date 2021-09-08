@@ -1,70 +1,94 @@
--  name: 'Myesha'
-   img: 'blank_pic.png'
+-  name: 'Myesha Hoque'
+   img: 'myesha.png'
    role: 'Chair'
-   email: 'chair@mse.skule.ca'
-   description: ''
--  name: 'Amanda'
-   img: 'blank_pic.png'
+   email: 'mse@g.skule.ca'
+   description: |
+     Pronouns: She/her<br />
+     Year: 2T1 + PEY<br />
+     Feel free to reach out to ask questions! As chair I hope to bring together the MSE community for fun events and other activities
+-  name: 'Amanda Morelli'
+   img: 'amanda.png'
    role: 'Vice-Chair'
-   email: 'vicechair@mse.skule.ca'
-   description: ''
--  name: 'Josh'
-   img: 'blank_pic.png'
+   email: ''
+   description: |
+     Pronouns: She/her<br />
+     Year: 2T3<br />
+-  name: 'Joshua Marquez'
+   img: 'josh.jpg'
    role: 'Finance director'
-   email: 'finance@mse.skule.ca'
-   description: ''
--  name: 'Lillian'
-   img: 'blank_pic.png'
+   email: ''
+   description: |
+     Pronouns: He/him<br />
+     Year: 2T4<br />
+-  name: 'Lillian Kang'
+   img: 'lillian.png'
    role: 'Sports and Wellness Director'
-   email: 'sports@mse.skule.ca'
-   description: ''
+   email: ''
+   description: |
+     Pronouns: They/them, She/her<br />
+     Year: 2T4<br />
 -  name: 'Mark Liao'
    img: 'mark_liao.jpg'
    role: 'Events Director'
-   email: 'events@mse.skule.ca'
-   description: ''
--  name: 'Renee'
-   img: 'blank_pic.png'
+   email: ''
+   description: |
+     Pronouns: He/him<br />
+     Year: 2T1 + PEY<br />
+     MS-see you at our events! :)
+-  name: 'Renee Slen'
+   img: 'renee.jpg'
    role: 'Communications & Social Director'
-   email: 'communications@mse.skule.ca'
-   description: ''
--  name: 'Samantha'
-   img: 'blank_pic.png'
+   email: ''
+   description: |
+     Pronouns: She/her<br />
+     Year: 2T5<br />
+-  name: 'Samantha Paradi-Maropakis'
+   img: 'samantha.png'
    role: 'Academic Director'
-   email: '@mse.skule.ca'
-   description: ''
+   email: ''
+   description: |
+     Pronouns: She/her<br />
+     Year: 2T3<br />
 -  name: 'Kaija Mikes'
    img: 'kaija.jpg'
    role: 'Technical Director'
-   email: 'webmaster@mse.skule.ca'
-   description: 'time flies like an arrow; fruit flies like a banana'
--  name: 'David'
-   img: 'blank_pic.png'
+   email: ''
+   description: |
+     Pronouns: She/her<br />
+     Year: 2T5<br />
+-  name: 'David Petriw'
+   img: 'david.png'
    role: 'Common Room Director'
-   email: '@mse.skule.ca'
-   description: ''
--  name: 'Jonathan'
-   img: 'blank_pic.png'
+   email: ''
+   description: |
+     Pronouns: He/him<br />
+     Year: 2T3<br />
+     Hey folks, I'm very excited to keep our lovely common room nice and shiny while also beating you at super smash bros. Fair warning, I main Ness.
+-  name: 'Jonathan Shan'
+   img: 'jonathan.jpg'
    role: 'Mentorship Director'
-   email: '@mse.skule.ca'
-   description: ''
--  name: '4Rep'
-   img: 'blank_pic.png'
-   role: '4th year Representative'
    email: ''
-   description: ''
--  name: '3Rep'
-   img: 'blank_pic.png'
-   role: '3rd year Representative'
-   email: ''
-   description: ''
--  name: '2Rep'
-   img: 'blank_pic.png'
-   role: '2nd year Representative'
-   email: ''
-   description: ''
--  name: '1Rep'
-   img: 'blank_pic.png'
-   role: '1st year Representative'
-   email: ''
-   description: ''
+   description: |
+     Prounouns: He/him<br />
+     Year: 2T3<br />
+
+#-  name: '4Rep'
+#   img: 'blank_pic.png'
+#   role: '4th year Representative'
+#   email: ''
+#   description: ''
+#-  name: '3Rep'
+#   img: 'blank_pic.png'
+#   role: '3rd year Representative'
+#   email: ''
+#   description: ''
+#-  name: '2Rep'
+#   img: 'blank_pic.png'
+#   role: '2nd year Representative'
+#   email: ''
+#   description: ''
+#-  name: '1Rep'
+#   img: 'blank_pic.png'
+#   role: '1st year Representative'
+#   email: ''
+#   description: ''
