@@ -1,9 +1,9 @@
 ---
 categories: shop
-title: MSE Shirt
-short: "Everyday Apparel"
+title: MSE Baseball Tee
+short: "$15.69"
 img: "shirt.jpg"
 layout: page
 ---
 
-MSE tshirts are available for $15!!!
+Availible for only $15, this snazzy shirt is a must-have for any MSE looking to add to their closet. Be warned! When wearing this shirt people may ask you what MSE is.
