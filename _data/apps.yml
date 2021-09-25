@@ -36,3 +36,8 @@
    icon: 'face'
    color: 'blue lighten-4'
    url: '/club/'
+-  name: 'Wellness'
+   icon: 'heart'
+   svg: 'yes'
+   color: 'blue lighten-5'
+   url: '/wellness/'

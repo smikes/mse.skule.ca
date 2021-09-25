@@ -19,7 +19,7 @@ paginate_path: '/news/:num/'
 
 keywords: ['Materials','Science','Engineering','Club','MSE','MSEClub','UofT','Academic','Anti-Calendar','Guide','Courses','Buckyball']
 
-description: 'The Materials Science and Engineering Club (MSE Club) at the University of Toronto represents the interests of over 200 MSE undergraduate students in the Faculty of Applied Science and Engineering. The club excecutives organize events like barbeques, smokers, tournaments, movie nights, sports, and the annual MSE dinner dance. They provide services such as locker rentals, common room cleanups, and anouncement boards for the community.'
+description: 'The Materials Science and Engineering Club (MSE Club) at the University of Toronto represents the interests of over 200 MSE undergraduate students in the Faculty of Applied Science and Engineering. The club executives organize events like barbeques, smokers, tournaments, movie nights, sports, and the annual MSE dinner dance. They provide services such as locker rentals, common room cleanups, and announcement boards for the community.'
 
 address:
     - WB39 Wallberg building
