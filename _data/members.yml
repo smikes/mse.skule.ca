@@ -56,6 +56,7 @@
    description: |
      Pronouns: She/her<br />
      Year: 2T5<br />
+     Hey everyone! I'm super excited to be starting Eng at UofT! Looking forward to meeting lots of people this year!
 -  name: 'David Petriw'
    img: 'david.png'
    role: 'Common Room Director'
@@ -77,16 +78,21 @@
 #   role: '4th year Representative'
 #   email: ''
 #   description: ''
-#-  name: '3Rep'
-#   img: 'blank_pic.png'
-#   role: '3rd year Representative'
-#   email: ''
-#   description: ''
-#-  name: '2Rep'
-#   img: 'blank_pic.png'
-#   role: '2nd year Representative'
-#   email: ''
-#   description: ''
+-  name: 'Shuai (David) Jia'
+   img: 'shuai.jpg'
+   role: '3rd year Representative'
+   email: ''
+   description: |
+     Pronouns: He/him<br />
+     Year: 2T3<br />
+     Hi MSE2T3, aka Fabian’s Children, how are u? Oh, You haven’t heard my name before? My name is Shuai Jia, you can call me David if you want. Same as you, I love chemistry, physics and material. During my free time, I am a big fan of outdoor activities, such as trail biking.
+-  name: 'Tobin Zheng'
+   img: 'blank_pic.png'
+   role: '2nd year Representative'
+   email: ''
+   description: |
+     Pronouns: He/him
+     Year: 2T4
 #-  name: '1Rep'
 #   img: 'blank_pic.png'
 #   role: '1st year Representative'
