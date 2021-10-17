@@ -73,11 +73,14 @@
      Prounouns: He/him<br />
      Year: 2T3<br />
 
-#-  name: '4Rep'
-#   img: 'blank_pic.png'
-#   role: '4th year Representative'
-#   email: ''
-#   description: ''
+-  name: 'Andrew Wuebbolt'
+   img: 'andrew.png'
+   role: '4th year Representative'
+   email: ''
+   description: |
+     Pronouns: He/him<br />
+     Year: 2T1 + PEY<br />
+     I’d rather be in the common room… scratch that, comp lab...
 -  name: 'Shuai (David) Jia'
    img: 'shuai.jpg'
    role: '3rd year Representative'
@@ -87,12 +90,20 @@
      Year: 2T3<br />
      Hi MSE2T3, aka Fabian’s Children, how are u? Oh, You haven’t heard my name before? My name is Shuai Jia, you can call me David if you want. Same as you, I love chemistry, physics and material. During my free time, I am a big fan of outdoor activities, such as trail biking.
 -  name: 'Tobin Zheng'
-   img: 'blank_pic.png'
+   img: 'tobin.jpg'
    role: '2nd year Representative'
    email: ''
    description: |
-     Pronouns: He/him
-     Year: 2T4
+     Pronouns: He/him<br />
+     Year: 2T4<br />
+-  name: 'Ibrahim Ameli'
+   img: 'ibrahim.jpg'
+   role: 'BOD Representative'
+   email: ''
+   description: |
+     Pronouns: He/him<br />
+     Year: 2T3<br />
+     Hi to all you amazing MSEs! I’ll be your Board of Directors Rep for this academic year. I’m really looking forward to talking to you all in-person. If you see me on campus and want to talk, just give me a holler, or find me in the pit for some sweet chess action.
 #-  name: '1Rep'
 #   img: 'blank_pic.png'
 #   role: '1st year Representative'
