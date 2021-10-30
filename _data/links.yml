@@ -33,6 +33,17 @@
   - name: 'Professional Experience Year (PEY) Portal'
     link: 'https://uoftengcareerportal.ca/home.htm	'
     desc: 'This is where students who have paid the PEY fee can access the job board, apply for positions, and respond to interviews.'
+- section: 'MSE Events and Opportunities'
+  links:
+  - name: 'MSE Department Events'
+    link: 'https://mse.utoronto.ca/events/'
+    desc: 'Events that any MSE student can sign up for! Updates regularly so make sure to check on this often.'
+  - name: 'Job Positons'
+    link: 'https://mse.utoronto.ca/current/job-opportunities/'
+    desc: 'PEY and Alumni job offers through the MSE faculty website.'
+  - name: 'Student Opportunities'
+    link: 'https://mse.utoronto.ca/current/student-opportunities/'
+    desc: 'Your one-stop spot for interesting talks, informative events, and anything MSE-related! This site is regularly updated so check it often.'
 - section: 'Life at Skule™'
   links:
   - name: 'U of T Engineering Society (EngSoc)'
@@ -57,7 +68,7 @@
   links:
   - name: 'Wolfram Alpha'
     link: 'http://www.wolframalpha.com/'
-    desc: 'WolframAlpha knows everything. Absolute monster in solving equations, determining properties of elements, mechanical data of alloys, stock exchange lines, and providing <a href="http://www.wolframalpha.com/input/?i=graph+pikachu">pikachu graphs</a>. Other websites on this list only provides a neater interface for displaying information that is present in Wolframs extensive database.'
+    desc: 'WolframAlpha knows everything. Absolute monster in solving equations, determining properties of elements, mechanical data of alloys, stock exchange lines, and providing <a href="https://www.wolframalpha.com/input/?i=pikachu+curve">pikachu graphs</a>. Other websites on this list only provides a neater interface for displaying information that is present in Wolframs extensive database.'
   - name: 'WebElements'
     link: 'http://www.webelements.com/'
     desc: 'Advanced periodic table that contains information like crystal structures, thermodynamics, atomic sizes, and other properties important in your courses.'
