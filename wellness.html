@@ -1,22 +1,45 @@
 ---
 permalink: /wellness/
-layout: default
+layout: page
 title: 'Wellness Flowchart'
 ---
 
-<div id="link" class="row">
-	<ul class="collapsible popout" data-collapsible="accordion">
-	{% for s in site.data.wellnessinprogress %}
-	<li>
-    <div class="collapsible-header center">{{s.section}}</div>
-	<div class="collapsible-body white"><div class="row">
-	{% for l in s.parts %}
-	<div class="col s12 m12">
-        {{l.desc}}
+<div id="courses" class="card-panel white z-depth-0">
+
+    <div class="row disclaimer">
+        Mental and physical wellbeing are almost always very interconnected and often can impact each other greatly. Would you be ok with starting with a checklist to take care of any possible physical reasons why you might be feeling not your best/down/off/like shit?
+        <br><br>Yes please! I’d like to run some basic self care and maintenance. (Go to Physical)
+        <br><br>No thank you, I am certain I have taken care of all my physical and environmental needs and would like to skip ahead. (Go to Mental)
+
+    </div>
+
+    <div class="row">
+    <div class="col s12 m3">
+        <ul class="tabs">
+            <li class="tab col s12"><a href="#tab1">Physical Wellness</a></li>
+            <li class="tab col s12"><a href="#tab2">Mental Wellness</a></li>
+        </ul>
+    </div>
+    <div class="col s12 m9">
+        {% for i in (1..2) %}
+        {% assign iter = forloop.index %}
+        <div id="tab{{iter}}" >
+            <ul class="collapsible" data-collapsible="accordion">
+                {% for j in site.wellness %}
+                {% if iter == j.year %}
+                <li>
+                    <div class="collapsible-header center"><h5>{{j.title}}</h5></div>
+                    <div class="collapsible-body">
+                        <div class="course-content card-panel z-depth-0">
+                        {{j.content}}
+                        </div>
+                    </div>
+                </li>
+                {% endif %}
+                {% endfor %}        
+            </ul>
         </div>
-    {% endfor %}	
-	</div></div>
-	</li>
-	{% endfor %}
-	</ul>
+        {% endfor %}
+    </div>
+    </div>
 </div>

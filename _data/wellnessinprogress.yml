@@ -1,1 +1,11 @@
-- section: 'Coming Soon!'
+- section: 'Intro'
+  parts:
+  - desc: "Mental and physical wellbeing are almost always very interconnected and often can impact each other greatly. Would you be ok with starting with a checklist to take care of any possible physical reasons why you might be feeling not your best/down/off/like shit?<br><br>Yes please! I’d like to run some basic self care and maintenance. (Go to Physical)<br><br>No thank you, I am certain I have taken care of all my physical and environmental needs and would like to skip ahead. (Go to Mental)"
+- section: 'Physical Wellness'
+  parts:
+  - name: "Step 1"
+    desc: "Have you eaten in the last four hours?<br><br>Yes! Next question. (Go to #2.)<br><br>I could use a snack…<br>When you need a snack, just pop some easy food in your mouth. If there's a specific food you want, it's okay to eat it! You don't have to eat perfectly healthy all the time-- no one does! Just also use your brain a little, and notice the quantity you're eating, and how healthy it is for you. You're probably just fine at trusting your gut and knowing what your body needs.<br><br>I’ve finished my snack and I’m ready for the next step (Go to #2)"
+  - name: "Step 2"
+    desc: "Have you taken any medication you need to take?"
+- section: 'Mental Wellness'
+  parts:
